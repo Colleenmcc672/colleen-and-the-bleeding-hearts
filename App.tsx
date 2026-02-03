@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import PrivacyPolicyModal from './components/PrivacyPolicyModal';
 import TermsOfServiceModal from './components/TermsOfServiceModal';
 
-// BUILD TRIGGER: Forced deployment refresh - Version 1.0.2
+// DEPLOYMENT TRIGGER: Version 1.0.3 - Final Build Configuration
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
