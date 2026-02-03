@@ -1,0 +1,12 @@
+# Colleen & The Bleeding Hearts - Official Website
+
+## 🤘 Fix the "File Not Found" Error
+If you see a 404 error, it means GitHub is looking at the wrong place. Follow these steps:
+
+1. **GitHub Settings**: Go to **Settings > Pages** in this repository.
+2. **Change Source**: Look for the "Source" dropdown. Change it from "Deploy from a branch" to **GitHub Actions**.
+3. **Re-Run**: Go to the **Actions** tab at the top. If the "Deploy" workflow failed previously, click "Run workflow" or just upload these new files to trigger it again.
+4. **Success**: When the circle turns **green**, click the link in Settings > Pages to see your site!
+
+---
+*Est. 2010 in Toronto, ON. We don’t just play the hits — we bleed them.*
