@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -12,6 +11,7 @@ import Footer from './components/Footer';
 import PrivacyPolicyModal from './components/PrivacyPolicyModal';
 import TermsOfServiceModal from './components/TermsOfServiceModal';
 
+// Triggering new deployment build for Colleen & The Bleeding Hearts
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
@@ -38,7 +38,6 @@ const App: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Lock scroll when any modal is open
   useEffect(() => {
     if (isPrivacyModalOpen || isTermsModalOpen) {
       document.body.style.overflow = 'hidden';
