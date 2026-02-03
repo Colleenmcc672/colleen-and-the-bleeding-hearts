@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensures the site works on any GitHub repo name
+  base: './', 
   build: {
     outDir: 'dist',
+    emptyOutDir: true,
   }
 });
