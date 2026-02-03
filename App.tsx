@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import PrivacyPolicyModal from './components/PrivacyPolicyModal';
 import TermsOfServiceModal from './components/TermsOfServiceModal';
 
-// DEPLOYMENT TRIGGER: Version 1.0.5 - Triggering GitHub Actions Build
+// DEPLOYMENT TRIGGER: Version 1.0.7 - Clean Build - No Importmap
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
