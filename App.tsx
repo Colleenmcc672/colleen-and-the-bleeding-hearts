@@ -11,7 +11,11 @@ import Footer from './components/Footer';
 import PrivacyPolicyModal from './components/PrivacyPolicyModal';
 import TermsOfServiceModal from './components/TermsOfServiceModal';
 
-// DEPLOYMENT TRIGGER: Version 1.8.0 - FINAL CLEANUP & ACTION TRIGGER
+/**
+ * COLLEEN & THE BLEEDING HEARTS 
+ * Version 2.2.0 - Final Deployment Fix
+ * (Removed conflicting importmap in index.html)
+ */
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
